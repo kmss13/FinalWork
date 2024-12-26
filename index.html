@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet"
+    href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+
+  <script defer src="https://use.fontawesome.com/releases/v5.7.2/js/all.js"
+    integrity="sha384-0pzryjIRos8mFBWMzSSZApWtPl/5++eIfzYmTgBBmXYdhvxPc+XcFEk+zJwDgWbP"
+    crossorigin="anonymous"></script>
+  <link rel="icon" type="image/png" href="img/icon.png">
+  <title>Личный сайт</title>
+</head>
+
+<body>
+
+  <header>
+    <div class="header-container">
+
+      <div class="header-left">
+        <a href="index.html">
+          <p class="epoxyMood">EpoxyMood</p>
+          <img class="logo" src="img/logo.png">
+        </a>
+
+      </div>
+      <div class="header-right">
+	        <a href="catalog.html" class="header-links">Каталог</a>
+			<a href="delivery.html" class="header-links">Доставка и оплата</a>
+			<a href="orderpage.html" class="header-links lk">Личный кабинет</a>
+			<a href="registration.html" class="header-links lk">Регистрация</a>
+        <div class="cart-main">
+          <a href="#" class="header-links header-span">
+            <img class="img-cart" src="img/cart.svg" alt="Корзина"></a>
+          <span class="cart-span">0</span>
+         </div>
+         <div class="cart-block invisible">
+            <div class="cart-header">
+              <!--   <img class="cart-img-header" src="img/набор.jpg" alt="Каталог>">-->
+				<p class="cart-title-header">Название:</p>
+				<p class="catalog-price-header">Цена:</p>
+				<p class="catalog-count">Количество:</p>
+              </div>
+            <div class="renderItems"></div>
+            <div class="basket-total">
+              Товаров в корзине на сумму:<span class="cart-total-value">0 рублей</span>
+            </div>
+          </div>
+
+        <div class="login-form none">
+          <div class="login-form-close"><img src="img/close.png"></div>
+          <h1 class="form-title">Вход на сайт</h1>
+
+          <form class="form" action="#">
+            <!--     Important to set the placeholder to " " (space) -->
+            <div class="form-field">
+              <input type="text" placeholder=" ">
+              <span class="label">Ваш логин</span>
+            </div>
+
+            <div class="form-field">
+              <input type="password" placeholder=" " autofill="off">
+              <span class="label" autofill="off">Ваш пароль</span>
+            </div>
+
+            <div class="form-field button-form">
+              <input class="btn btn-submit" type="submit" value="Войти"><a href="personalpage.html"></a>
+              <div class="form-field button-form">
+                <input class="btn btn-submit" type="submit" value="Регистрация"><a href="registration.html"></a>
+
+              </div>
+          </form>
+        </div>
+      </div>
+    </div>
+	<div class="header-right header-right-mobile">
+	  <a href="catalog.html" class="header-right-mobile-menu"><img src="img/menu.png"></a>
+	  <a href="cart.html" class="header-links-mobile"><img src="img/cart.png"></a>
+	<a href="personalpage.html" class="header-links-mobile"><img src="img/account.png"></a>
+	  
+  </header>
+  <div class="slaider">
+
+    <div class="slider-arrows">
+      <div class="prev"><img class="prev-img" src="img/slaider/left.png"></div>
+      <div class="slider-list">
+        <div class="slider-track">
+          <div class="slide"> <img class="slide-img" src="img/slaider/1.jpg"></div>
+          <div class="slide"> <img class="slide-img" src="img/slaider/2.jpg"></div>
+          <div class="slide"> <img class="slide-img" src="img/slaider/3.jpg"></div>
+          <div class="slide"> <img class="slide-img" src="img/slaider/4.jpg"></div>
+          <div class="slide"> <img class="slide-img" src="img/slaider/5.jpg"></div>
+		  <div class="slide"> <img class="slide-img" src="img/slaider/6.jpg"></div>
+		  <div class="slide"> <img class="slide-img" src="img/slaider/7.jpg"></div>
+        </div>
+      </div>
+      <div class="next"><img class="next-img" src="img/slaider/right.png"></div>
+
+    </div>
+    </div>
+
+  
+    <div class="promotion__timer">
+    <div class="title">Скидка на все сережки 20%.<br>
+    До конца акции осталось:</div>
+    <div class="timer">
+      <div class="timer__block">
+        <span id="days"></span>
+        дней
+      </div>
+      <div class="timer__block">
+        <span id="hours"></span>
+        часов
+      </div>
+      <div class="timer__block">
+        <span id="minutes"></span>
+        минут
+      </div>
+      <div class="timer__block">
+        <span id="seconds"></span>
+        секунд
+      </div>
+    </div>
+  </div>
+  <main>
+    <div class="main-container">
+       <div class="card-main брошки">
+	          <img class="img-card-main" src="img/брошка.jpg" alt="Брошка">
+			    
+	  	        <p class="card-text-title"><a href="catalog.html" class="card-link">Брошки</p></a>
+				</div>
+
+      <div class="card-main сережки">
+        <img class="img-card-main" src="img/серьги.jpg" alt="Сережки>">
+        <p class="card-text-title"><a href="catalog.html" class="card-link">Сережки</p></a>
+      </div>
+
+      <div class="card-main наборы">
+        <img class="img-card-main" src="img/набор.jpg" alt="Наборы>">
+        <p class="card-text-title"><a href="catalog.html" class="card-link">Наборы</p></a>
+      </div>
+
+      <div class="card-main кулоны">
+        <img class="img-card-main" src="img/кулон.jpg" alt="Кулоны>">
+        <p class="card-text-title"><a href="catalog.html" class="card-link">Кулоны</p></a>
+      </div>
+
+
+
+    </div>
+  </main>
+
+  <div class="container">
+
+    <button data-modal class="modal-btn">Связаться с нами</button>
+    <div class="overlay-modal none">
+      <div class="modalActive">
+    
+        <div class="modalClose">
+          <img data-close src="img/close.png">
+        </div>
+        <div class="text-field">
+          <form action="#" id="modal">
+            <h3 class="modal-title">Оставьте свой телефон и наш менеджер обязательно вам перезвонит!</h3>
+            <div class="modal-field-box">
+              <input class="modal-field" type="name" placeholder="Ваше имя" required id="username">
+              <input class="modal-field" type="phone" placeholder="Ваш телефон" required id="phone">
+            </div>
+            <button class="modal-btn-submit">Отправить</button>
+    
+          </form>
+        </div>
+      </div>
+    </div>
+    
+    
+    
+    </div>
+
+    <div class="about-me">
+	      <img class="aboutme-img" src="img/me.jpg">
+	         <p class="about-me-text">
+            О нашем бренде<br>
+            <br>
+            
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum quasi quibusdam et recusandae culpa odio
+         sequi! Nihil, error reprehenderit. Saepe quaerat eaque sint alias blanditiis perferendis illo ratione quis distinctio.usandae culpa odio
+         sequi! Nihil, error reprehenderit. Saepe quaerat eaque sint alias blanditiis perferendis illo ratione quis distinctio.usandae culpa odio
+         sequi! Nihil, error reprehenderit. Saepe quaerat eaque sint alias blanditiis perferendis illo ratione quis distinctio.
+            <br> <br>
+        Команда EpoxyMood
+      </p>
+    </div>
+  </div>
+  <footer>
+  <div class="footer-mobile">
+	
+	<a href="catalog" class="footer-link-mobile "><img src="img/catalog.png">Каталог</a>
+	<a href="#" class="footer-link-mobile "><img src="img/chat.png">Чат</a>
+	<a href="#" class="footer-link-mobile "><img src="img/telephone.png">Контакты</a>
+  <a href="#" class="footer-link-mobile "><img src="img/favorite.png">Избранное</a>
+	</div>
+    <div class="footer-container">
+      <div class="footer-first-colomn">
+        <a href="#" class="footer-link ">Каталог</a>
+        <a href="#" class="footer-link ">О мастерской</a>
+        <a href="#" class="footer-link ">Доставка и оплата</a>
+        <a href="#" class="footer-link ">Блог</a>
+      </div>
+      <div class="footer-second-colomn">
+        <div class="subscribe">
+          <form class="subscription">
+            <div class="subscription-group">
+              <label>
+                <span class="subscription-text">
+                  Подпишитесь на наши новости!
+                </span>
+                <input class="field" type="email" placeholder="Например, ivanov@ya.ru" required>
+              </label>
+            </div>
+            <button class="button" type="submit">Подписаться</button>
+          </form>
+        </div>
+
+      </div>
+      <div class="footer-third-colomn">
+        <p class="footer-contacts">Контакты: г. Арараваа ул. Арпрпстаа д.77  График работы с 11.00 до 19.00 </p>
+      </div>
+	  
+    </div>
+    <div class="footer-bottom">
+
+      <a href="#"><img class="footer-bottom-img" src="img/insta.png"></a>
+      <a href="https://vk.com/"><img class="footer-bottom-img" src="img/vk.png"></a>
+      <a href="https://web.telegram.org/a/"><img class="footer-bottom-img" src="img/tele.png"></a>
+    </div>
+
+
+  </footer>
+  
+  <script src="modules/login-form.js"></script>
+  <script src="modules/filter.js"></script>
+    <script src="modules/slaider.js"></script>
+<script  src="modules/renderCatalog.js"></script>
+<script  src="modules/renderCart.js"></script>
+<script src="modules/taimer.js"></script>
+<script src="modules/modal.js"></script>
+
+</body>
+
+</html>

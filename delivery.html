@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet"
+    href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+
+  <script defer src="https://use.fontawesome.com/releases/v5.7.2/js/all.js"
+    integrity="sha384-0pzryjIRos8mFBWMzSSZApWtPl/5++eIfzYmTgBBmXYdhvxPc+XcFEk+zJwDgWbP"
+    crossorigin="anonymous"></script>
+  <link rel="icon" type="image/png" href="img/icon.png">
+  <title>Личный сайт</title>
+</head>
+
+<body>
+
+  <header>
+    <div class="header-container">
+
+      <div class="header-left">
+        <a href="index.html">
+          <p class="epoxyMood">EpoxyMood</p><img class="logo" src="img/logo.png">
+        </a>
+
+      </div>
+      <div class="header-right">
+	        <a href="catalog.html" class="header-links">Каталог</a>
+			<a href="delivery.html" class="header-links">Доставка и оплата</a>
+			<a href="#" class="header-links lk">Личный кабинет</a>
+			<a href="registration.html" class="header-links lk">Регистрация</a>
+        <div class="cart-main">
+          <a href="#" class="header-links header-span">
+            <img class="img-cart" src="img/cart.svg" alt="Корзина"></a>
+          <span class="cart-span">0</span>
+         </div>
+         <div class="cart-block invisible">
+            <div class="cart-header">
+              <!--   <img class="cart-img-header" src="img/набор.jpg" alt="Каталог>">-->
+				<p class="cart-title-header">Название:</p>
+				<p class="catalog-price-header">Цена:</p>
+				<p class="catalog-count">Количество:</p>
+              </div>
+            <div class="renderItems"></div>
+            <div class="basket-total">
+              Товаров в корзине на сумму:<span class="cart-total-value">0 рублей</span>
+            </div>
+          </div>
+
+        <div class="login-form none">
+          <div class="login-form-close"><img src="img/close.png"></div>
+          <h1 class="form-title">Вход на сайт</h1>
+
+          <form class="form" action="#">
+            <!--     Important to set the placeholder to " " (space) -->
+            <div class="form-field">
+              <input type="text" placeholder=" ">
+              <span class="label">Ваш логин</span>
+            </div>
+
+            <div class="form-field">
+              <input type="password" placeholder=" " autofill="off">
+              <span class="label" autofill="off">Ваш пароль</span>
+            </div>
+
+            <div class="form-field button-form">
+              <input class="btn btn-submit" type="submit" value="Войти"><a href="personalpage.html"></a>
+              <div class="form-field button-form">
+                <input class="btn btn-submit" type="submit" value="Регистрация"><a href="registration.html"></a>
+
+              </div>
+          </form>
+        </div>
+      </div>
+    </div>
+	<div class="header-right header-right-mobile">
+	  <a href="catalog" class="header-right-mobile-menu"><img src="img/menu.png"></a>
+	  <a href="cart.html" class="header-links-mobile"><img src="img/cart.png"></a>
+	<a href="personalpage.html" class="header-links-mobile"><img src="img/account.png"></a>
+	  
+  </header>
+   <main>
+		<div class="delivery-desc">
+			<div class="container">
+				<p class="delivery-text">
+					<span>Шаг 1.</span><br>
+					<br>
+					Зарегистрируйтесь как розничный покупатель на нашем сайте.
+					
+					Если вы пропустили этот пункт и сразу стали делать заказ, ничего страшного.
+					
+					Мы вышлем вам логин и пароль для входа в личный кабинет после получения заявки.<br>
+					<br>
+					<span>Шаг 2.</span><br>
+					<br>
+					Положите товар в корзину и оформите заказ.<br>
+
+					<br>
+					<span>Шаг 3.</span><br>
+
+					<br>
+					С 9.00 до 18.00 вам поступит звонок или сообщение от нашего менеджера для уточнения всех деталей заказа.<br>
+					<br>
+					<span>Шаг 4.</span><br>
+
+					<br>
+					После выставления счёта в личном кабинете появится кнопка «ОПЛАТИТЬ».
+					
+					Деньги поступают мгновенно.
+					
+					В течение 24 часов мы отправим заказ курьерской службой СДЭК.
+					
+					При заказе от 3000 рублей - бесплатная доставка до пункта выдачи.<br>
+					<br>
+					<span>Шаг 5.</span><br>
+					
+					<br>
+					Наслаждайтесь покупкой!
+					
+					Следите за нашими акциями и поступлениями новинок.<br>
+					<br>
+										
+				</p>
+			</div>
+		</div>
+<footer>
+  <div class="footer-mobile">
+	
+    <a href="catalog" class="footer-link-mobile "><img src="img/catalog.png">Каталог</a>
+    <a href="#" class="footer-link-mobile "><img src="img/chat.png">Чат</a>
+    <a href="#" class="footer-link-mobile "><img src="img/telephone.png">Контакты</a>
+    <a href="#" class="footer-link-mobile "><img src="img/favorite.png">Избранное</a>
+    </div>
+    <div class="footer-container">
+      <div class="footer-first-colomn">
+        <a href="#" class="footer-link ">Каталог</a>
+        <a href="#" class="footer-link ">О мастерской</a>
+        <a href="#" class="footer-link ">Доставка и оплата</a>
+        <a href="#" class="footer-link ">Блог</a>
+      </div>
+      <div class="footer-second-colomn">
+        <div class="subscribe">
+          <form class="subscription">
+            <div class="subscription-group">
+              <label>
+                <span class="subscription-text">
+                  Подпишитесь на наши новости!
+                </span>
+                <input class="field" type="email" placeholder="Например, ivanov@ya.ru" required>
+              </label>
+            </div>
+            <button class="button" type="submit">Подписаться</button>
+          </form>
+        </div>
+
+      </div>
+      <div class="footer-third-colomn">
+        <p class="footer-contacts">Контакты: г. Арараваа ул. Арпрпстаа д.77  График работы с 11.00 до 19.00 </p>
+      </div>
+	  
+    </div>
+    <div class="footer-bottom">
+      <a href="#"><img class="footer-bottom-img" src="img/insta.png"></a>
+      <a href="https://vk.com/"><img class="footer-bottom-img" src="img/vk.png"></a>
+      <a href="https://web.telegram.org/a/"><img class="footer-bottom-img" src="img/tele.png"></a>
+    </div>
+
+
+  </footer>
+  
+    
+</body>
+</html>

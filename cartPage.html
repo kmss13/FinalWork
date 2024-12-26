@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet"
+    href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+
+  <script defer src="https://use.fontawesome.com/releases/v5.7.2/js/all.js"
+    integrity="sha384-0pzryjIRos8mFBWMzSSZApWtPl/5++eIfzYmTgBBmXYdhvxPc+XcFEk+zJwDgWbP"
+    crossorigin="anonymous"></script>
+  <link rel="icon" type="image/png" href="img/icon.png">
+  <title>Личный сайт</title>
+</head>
+
+<body>
+
+  <header>
+    <div class="header-container">
+
+      <div class="header-left">
+        <a href="index.html">
+          <p class="epoxyMood">EpoxyMood</p>
+        </a>
+
+      </div>
+      <div class="header-right">
+        <a href="catalog.html" class="header-links">Каталог</a>
+        <a href="delivery.html" class="header-links">Доставка и оплата</a>
+        <a href="#" class="header-links lk">Личный кабинет</a>
+        <a href="registration.html" class="header-links lk">Регистрация</a>
+
+        <div class="cart-main">
+          <a href="#" class="header-links header-span">
+            <img class="img-cart" src="img/cart.svg" alt="Корзина"></a>
+          <span class="cart-span">0</span>
+          </div>
+          <div class="cart-block invisible">
+            <div class="cart-header">
+              <!--   <img class="cart-img-header" src="img/набор.jpg" alt="Каталог>">-->
+              <p class="cart-title-header">Название:</p>
+              <p class="catalog-price-header">Цена:</p>
+              <p class="catalog-count">Количество:</p>
+              
+            </div>
+            <div class="renderItems"></div>
+            <div class="basket-total">
+              Товаров в корзине на сумму:<span class="cart-total-value">0 рублей</span>
+            </div>
+          </div>
+
+        <div class="login-form none">
+          <div class="login-form-close"><img src="img/close.png"></div>
+          <h1 class="form-title">Вход на сайт</h1>
+
+          <form class="form" action="#">
+            <!--     Important to set the placeholder to " " (space) -->
+            <div class="form-field">
+              <input type="text" placeholder=" ">
+              <span class="label">Ваш логин</span>
+            </div>
+
+            <div class="form-field">
+              <input type="password" placeholder=" " autofill="off">
+              <span class="label" autofill="off">Ваш пароль</span>
+            </div>
+
+            <div class="form-field button-form">
+              <input class="btn btn-submit" type="submit" value="Войти">
+              <div class="form-field button-form">
+                <input class="btn btn-submit" type="submit" value="Регистрация"><a href="registration.html"></a>
+
+              </div>
+          </form>
+        </div>
+      </div>
+	  <div class="header-right-mobile">
+				
+	  <a href="#" class="header-right-mobile-menu"><img src="img/menu.png"></a>
+	  <a href="cart.html" class="header-links-mobile"><img src="img/cart.png"></a>
+	<a href="#" class="header-links-mobile"><img src="img/account.png"></a>
+			</div>	
+    </div>
+  </header>
+	
+		<div class="cart">
+			<p class="cart-title">Корзина</p>
+				<div class="cart-container">
+				
+					<!--<div class="cart-item">
+					<img class="cart-img" src="img/набор.jpg" alt="Каталог>">
+							<p class="cart-title">Брошь</p>
+							<p class="catalog-price">800р</p>
+							<p class="catalog-count">Количество:</p>
+							<div class="cart-delete"><img class="cart-delete" src="img/close.png" alt="Удалить"></div>
+					</div>
+					<div class="cart-item">
+							<img class="cart-img" src="img/набор.jpg" alt="Каталог>">
+							<p class="cart-title">Брошь</p>
+							<p class="catalog-price">800р</p>
+							<p class="catalog-count">Количество:</p>
+							<div class="cart-delete"><img class="cart-delete" src="img/close.png" alt="Удалить"></div>
+					</div>
+					<div class="cart-item">
+							<img class="cart-img" src="img/набор.jpg" alt="Каталог>">
+							<p class="cart-title">Брошь</p>
+							<p class="catalog-price">800р</p>
+							<p class="catalog-count">Количество:</p>
+							<div class="cart-delete"><img class="cart-delete" src="img/close.png" alt="Удалить"></div>
+					</div>-->
+				</div>
+		</div>	
+		
+	
+	
+	
+	
+	<footer>
+  <div class="footer-mobile">
+	<a href="#" class="footer-link-mobile "><img src="img/menu.png">Меню</a>
+	<a href="#" class="footer-link-mobile "><img src="img/catalog.png">Каталог</a>
+	<a href="#" class="footer-link-mobile "><img src="img/favorite.png">Избранное</a>
+	<a href="#" class="footer-link-mobile "><img src="img/chat.png">Чат</a>
+	<a href="#" class="footer-link-mobile "><img src="img/telephone.png">Контакты</a>
+	</div>
+    <div class="footer-container">
+      <div class="footer-first-colomn">
+        <a href="#" class="footer-link ">Каталог</a>
+        <a href="#" class="footer-link ">О мастерской</a>
+        <a href="#" class="footer-link ">Доставка и оплата</a>
+        <a href="#" class="footer-link ">Блог</a>
+      </div>
+      <div class="footer-second-colomn">
+        <div class="subscribe">
+          <form class="subscription">
+            <div class="subscription-group">
+              <label>
+                <span class="subscription-text">
+                  Подпишитесь на наши новости!
+                </span>
+                <input class="field" type="email" placeholder="Например, ivanov@ya.ru" required>
+              </label>
+            </div>
+            <button class="button" type="submit">Подписаться</button>
+          </form>
+        </div>
+
+      </div>
+      <div class="footer-third-colomn">
+        <p class="footer-contacts">Контакты: г. Арараваа ул. Арпрпстаа д.77  График работы с 11.00 до 19.00 </p>
+      </div>
+	  
+    </div>
+    <div class="footer-bottom">
+
+      <a href="#"><img class="footer-bottom-img" src="img/insta.png"></a>
+      <a href="#"><img class="footer-bottom-img" src="img/vk.png"></a>
+      <a href="#"><img class="footer-bottom-img" src="img/tele.png"></a>
+    </div>
+
+
+  </footer>
+  
+<script src="modules/renderCartPage.js"></script>
+ 
+  </body>
+
+</html>

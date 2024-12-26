@@ -1,0 +1,44 @@
+[
+    {
+        "id_product": 1,
+        "group": "brooch",
+        "src": "img/catalog/брошка.jpg",
+        "product_name": "Брошка",
+        "price": 800
+    },
+    {
+        "id_product": 2,
+        "group": "earnings",
+        "src": "img/catalog/серьги.jpg",
+        "product_name": "Серьги",
+        "price": 1000
+    },
+    {
+        "id_product": 3,
+        "group": "brooch",
+        "src": "img/catalog/брошка.jpg",
+        "product_name": "Брошка",
+        "price": 800
+    },
+    {
+        "id_product": 4,
+        "group": "set",
+        "src": "img/набор.jpg",
+        "product_name": "Набор",
+        "price": 1300
+    },
+    {
+        "id_product": 5,
+        "group": "necklace",
+        "src": "img/кулон.jpg",
+        "product_name": "Кулон",
+        "price": 900
+    },
+    {
+        "id_product": 6,
+        "group": "earnings",
+        "src": "img/серьги.jpg",
+        "product_name": "Серьги",
+        "price": 800
+    }
+]

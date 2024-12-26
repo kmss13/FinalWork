@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   	<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <link rel="stylesheet" href="style.css">
+    <title>EpoxyMood</title>
+</head>
+
+<body>
+ <div class="registration-form-close"><img class="close-form" src="img/close.png"></div>
+<div class="text-field">
+	<form action="/apply/" method="POST" class="transparent" id="myform">
+	        <div class="form-inner">
+<h3 class="form-title">Регистрация</h3>
+<label for="username">Имя пользователя</label>
+<input type="text" name="name" id="username">
+<label for="password">Пароль</label>
+<input id="password" type="password" name="password">
+<label for="phone">Ваш телефон</label>
+<input id="phone" type="tel" name="phone">
+<label for="email">Ваша почта</label>
+<input id="email" type=//"email" name="email">
+<input type="checkbox" id="custom-checkbox">
+<label for="custom-checkbox">Запомнить меня</label>
+<input class="button-form" type="submit" value="Отправить">
+<div id="loader" class="hidden">Отправляем...</div>
+</div>
+</form>
+<script src="modules/validator.js"></script>
+<script src="modules/registration.js"></script>
+
+    
+</body>
